@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnGenerar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3EACAC">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="187dp"
+        android:layout_height="79dp"
+        android:text="Generar"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#303F9F"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <EditText
+        android:id="@+id/txtCodigoGenerado"
+        android:layout_width="267dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:text="Aquí se generara el codigo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Token"
+        android:textColor="#2E2929"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
